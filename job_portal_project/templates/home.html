@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Portal Home</title>
+</head>
+<body>
+<h1>Job Application Portal</h1>
+
+<h2>Python Developer</h2>
+<p>Location: Remote</p>
+<p>Experience: 0-2 Years</p>
+<p>Skills: Python, SQL, HTML, CSS</p>
+
+<hr>
+
+<h2>Apply for Job</h2>
+<form action="/apply" method="POST" enctype="multipart/form-data">
+<input type="text" name="fullname" placeholder="Full Name" required><br><br>
+<input type="email" name="email" placeholder="Email" required><br><br>
+<input type="text" name="mobile" placeholder="Mobile Number" required><br><br>
+<input type="text" name="qualification" placeholder="Qualification" required><br><br>
+<input type="text" name="skills" placeholder="Skills" required><br><br>
+<input type="text" name="experience" placeholder="Experience" required><br><br>
+<input type="file" name="resume" accept=".pdf" required><br><br>
+<button type="submit">Apply</button>
+</form>
+
+</body>
+</html>
